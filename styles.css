@@ -1,29 +1,35 @@
 body {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+    background: rgb(118,195,34);
+    background: radial-gradient(circle, rgba(118,195,34,1) 0%, rgba(45,253,177,1) 100%);
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150vh;
-    height: 97vh;
-    border: solid 1px black;
+    width: 125vh;
+    height: 100vh;
+    border: solid 3px black;
     flex-direction: column;
+    background-color: lightgrey;
 }
 
 .main-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7vh;
+    margin-top: -3vh;
 }
 
 .second-title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
+    font-size: 4vh;
     align-self: flex-start;
-    margin-left: 4vh;
+    margin-left: 9vh;
+    margin-bottom: 5%;
 
 }
 
@@ -31,6 +37,7 @@ body {
     display: flex;
     align-items: center;
     width: 140vh;
+    justify-content: center;
 }
 
 .sec-title-container {
@@ -42,12 +49,13 @@ body {
 .div-izq {
     border: solid 1px black;
     text-align:start;
-    width: 45vh;
+    width: 50vh;
     height: 33vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vh;
-    padding: 1vh;
-    flex-grow: 1;
+    padding: 1vh;    
+    background-color: orange;
+    margin-right: 3%;
 }
 
 .div-centro {
@@ -60,6 +68,12 @@ body {
     font-size: 3vh;
     padding: 1vh;
     align-items: center;
+    background-color: greenyellow;
+    margin-right: 3%;
+}
+
+.ol-centro {
+    margin-left: -13%;
 }
 
 .div-der {
@@ -72,7 +86,9 @@ body {
     font-size: 3vh;
     padding: 1vh;
     align-items: center;
+    background-color: lightskyblue;
 }
 
-
-
+.ol-derecha {
+    margin-left: -6%;
+}
